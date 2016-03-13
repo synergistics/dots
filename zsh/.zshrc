@@ -5,10 +5,10 @@ promptinit
 autoload -U colors
 colors
 
-source ~/dotfiles/zsh/.zsh/history.zsh
-source ~/dotfiles/zsh/.zsh/exports.zsh
-source ~/dotfiles/zsh/.zsh/aliases.zsh
-source ~/dotfiles/zsh/.zsh/prompt.zsh
+source ~/.zsh/history.zsh
+source ~/.zsh/exports.zsh
+source ~/.zsh/aliases.zsh
+source ~/.zsh/prompt.zsh
 
 setopt appendhistory extendedglob nomatch notify share_history
 unsetopt autocd beep
@@ -18,4 +18,3 @@ zstyle :compinstall filename ~/.zshrc
 zstyle ':completion:*' menu select 
 setopt completealiases
 setopt sh_word_split
-
