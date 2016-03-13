@@ -1,0 +1,3 @@
+#include "~/.Xresources.d/urxvt.Xresources" 
+#include "~/.Xresources.d/schemes/ryuuko.Xresources"
+

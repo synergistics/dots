@@ -1,0 +1,9 @@
+[[ -f ~/.Xresources ]] && xrdb -I$HOME ~/.Xresources
+
+sxhkd &
+urxvt &
+exec bspwm
+
+# Get font working
+xset +fp /usr/share/fonts/local
+xset fp rehash
