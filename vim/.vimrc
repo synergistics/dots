@@ -1,7 +1,5 @@
 call plug#begin('~/.vim/plugged')
-" Current colorscheme
-Plug 'synergistics/ryuuko.vim'
-
+"
 " Surround text with things
 Plug 'tpope/vim-surround'
 
@@ -17,5 +15,10 @@ Plug 'tpope/vim-vinegar'
 " Fuzzy Searcher
 Plug 'kien/ctrlp.vim'
 
+" Wonderful colorschemes
+Plug 'chriskempson/base16-vim'
+
+" Better Haskell syntax highlighting
+Plug 'urso/haskell_syntax.vim'
 call plug#end()
 

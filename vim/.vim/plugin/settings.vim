@@ -1,7 +1,8 @@
 filetype plugin indent on
 syntax enable
 
-colorscheme ryuuko
+colorscheme base16-ocean
+let base16colorspace=256
 
 set autoindent
 set smarttab
