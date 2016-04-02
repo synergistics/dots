@@ -1,12 +1,11 @@
-urxvt*shading: 5
 urxvt.internalBorder: 5
 
 !urxvt.font: xft:Roboto Mono:size=9
 !urxvt.font: xft:Inconsolata-dz:size=9
-!urxvt.font: xft:dweep
-urxvt.font: xft:Hack:size=9
+urxvt.font: xft:dweep, xft:Monospace:size=9
 !urxvt.font: xft:DejaVu Sans Mono:size=9
-!urxvt.font: xft:Tamsyn:size=12
+!urxvt.font: xft:Tamsyn:size=9
+!urxvt.font: xft:Ubuntu Mono:size=10
 !Do not use this one, it is broken
 !urxvt.font: xft:Beep
 

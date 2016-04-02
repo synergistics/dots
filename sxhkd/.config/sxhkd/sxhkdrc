@@ -77,10 +77,10 @@ super + r
 	dmenu_run -b -dim 0.3 -fn Dweep -x 710 -y 3 -w 500 -sb gray -sf darkslategray
 
 super + R 
-  urxvt -e $(sh -c "ls /usr/bin | dmenu -b -dim 0.3 -fn Dweep -x 710 -y 3 -w 500 -sb gray -sf darkslategray")
+  urxvt -e $(sh -c "find $PATH | dmenu -b -dim 0.3 -fn Dweep -x 710 -y 3 -w 500 -sb gray -sf darkslategray")
 
 super + x
-  xrdb -merge ~/.Xresources
+  xrdb ~/.Xresources
 
 # make sxhkd reload its configuration files:
 super + Escape

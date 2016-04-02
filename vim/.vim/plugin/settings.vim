@@ -1,7 +1,7 @@
 filetype plugin indent on
 syntax enable
 
-colorscheme base16-ocean
+colorscheme base16-tomorrow
 let base16colorspace=256
 
 set autoindent

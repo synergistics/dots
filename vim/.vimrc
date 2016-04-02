@@ -1,5 +1,4 @@
 call plug#begin('~/.vim/plugged')
-"
 " Surround text with things
 Plug 'tpope/vim-surround'
 
@@ -20,5 +19,14 @@ Plug 'chriskempson/base16-vim'
 
 " Better Haskell syntax highlighting
 Plug 'urso/haskell_syntax.vim'
+
+" Better JavaScript 
+Plug 'pangloss/vim-javascript'
+
+" Repeat plugin commands with . 
+Plug 'tpope/vim-repeat'
+
+" Hybrid colorscheme
+Plug 'w0ng/vim-hybrid'
 call plug#end()
 
