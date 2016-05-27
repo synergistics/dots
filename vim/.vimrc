@@ -28,5 +28,8 @@ Plug 'tpope/vim-repeat'
 
 " Hybrid colorscheme
 Plug 'w0ng/vim-hybrid'
+
+" Commenting helper
+Plug 'tpope/vim-commentary'
 call plug#end()
 

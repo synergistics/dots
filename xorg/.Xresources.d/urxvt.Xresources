@@ -2,7 +2,8 @@ urxvt.internalBorder: 5
 
 !urxvt.font: xft:Roboto Mono:size=9
 !urxvt.font: xft:Inconsolata-dz:size=9
-urxvt.font: xft:dweep, xft:Monospace:size=9
+!urxvt.font: xft:dweep, xft:Monospace:size=9
+urxvt.font: xft:Terminus:size=8, xft:Monospace:size=9
 !urxvt.font: xft:DejaVu Sans Mono:size=9
 !urxvt.font: xft:Tamsyn:size=9
 !urxvt.font: xft:Ubuntu Mono:size=10
