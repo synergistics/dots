@@ -4,6 +4,8 @@ syntax enable
 colorscheme base16-tomorrow
 let base16colorspace=256
 
+let g:ctrlp_show_hidden = 1
+
 set autoindent
 set smarttab
 set expandtab
@@ -39,3 +41,6 @@ set nobackup
 set noswapfile
 
 set shell=/bin/zsh
+
+set cursorline
+
