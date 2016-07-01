@@ -1,7 +1,0 @@
-pane	larnin-tmux	0	:main	0	:-	0	:/home/jking/dots	0	vim	:vim
-pane	larnin-tmux	0	:main	0	:-	1	:/home/jking/dots	0	zsh	:
-pane	larnin-tmux	0	:main	0	:-	2	:/home/jking/dots	1	zsh	:
-pane	larnin-tmux	1	:zsh	1	:*	0	:/home/jking/dots	1	zsh	:
-window	larnin-tmux	0	0	:-	64f3,317x87,0,0{158x87,0,0[158x43,0,0,4,158x43,0,44,5],158x87,159,0,0}
-window	larnin-tmux	1	1	:*	d283,317x87,0,0,6
-state	larnin-tmux	

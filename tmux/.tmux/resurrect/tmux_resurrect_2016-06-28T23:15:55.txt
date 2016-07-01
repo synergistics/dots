@@ -1,6 +1,0 @@
-pane	0	0	:zsh	1	:*	0	:/home/jking/code/chemlambda-hask	0	vim	:vim
-pane	0	0	:zsh	1	:*	1	:/home/jking/code/chemlambda-hask	1	zsh	:
-pane	0	0	:zsh	1	:*	2	:/home/jking/code	0	vim	:vim
-pane	0	0	:zsh	1	:*	3	:/home/jking/code	0	ghc	:/usr/lib/ghc-8.0.1/bin/ghc -B/usr/lib/ghc-8.0.1 --interactive
-window	0	0	1	:*	bb8d,317x87,0,0[317x38,0,0,0,317x48,0,39{83x48,0,39,1,144x48,84,39,3,88x48,229,39,4}]
-state	0	

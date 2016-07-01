@@ -1,7 +1,0 @@
-pane	cwt	0	:[tmux]	1	:*	0	:/home/jking/code/canvas_websocket_testing	1	vim	:vim
-pane	cwt	0	:[tmux]	1	:*	1	:/home/jking/code/canvas_websocket_testing	0	npm	:npm
-pane	cwt	0	:[tmux]	1	:*	2	:/home/jking/code/canvas_websocket_testing	0	zsh	:
-pane	cwt	1	:zsh	0	:-	0	:/home/jking	1	zsh	:
-window	cwt	0	1	:*	4395,317x87,0,0[317x71,0,0,0,317x15,0,72{158x15,0,72,3,158x15,159,72,4}]
-window	cwt	1	0	:-	d283,317x87,0,0,6
-state	cwt	
