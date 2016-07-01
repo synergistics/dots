@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+
 " Surround text with things
 Plug 'tpope/vim-surround'
 
@@ -31,5 +32,11 @@ Plug 'w0ng/vim-hybrid'
 
 " Commenting helper
 Plug 'tpope/vim-commentary'
+
+" tmux integration
+Plug 'christoomey/vim-tmux-navigator'
+
+" Maximize vim windows like tmux
+Plug 'szw/vim-maximizer'
 call plug#end()
 
