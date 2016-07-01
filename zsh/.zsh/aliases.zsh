@@ -8,4 +8,7 @@ alias grep='grep --color=auto'
 alias lsorhpans='sudo pacman -Qdt'
 alias rmorphans='sudo pacman -Rs $(pacman -Qtdq)'
 
+# Fix irssi with tmux
+alias irssi='TERM=screen irssi'
+
 
