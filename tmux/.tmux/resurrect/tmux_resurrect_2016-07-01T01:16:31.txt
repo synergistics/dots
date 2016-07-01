@@ -1,0 +1,9 @@
+pane	larnin-tmux	0	:main	1	:*	0	:/home/jking/dots	1	vim	:vim
+pane	larnin-tmux	0	:main	1	:*	1	:/home/jking/dots	0	zsh	:
+pane	larnin-tmux	1	:balls	0	:-	0	:/usr/share/man	0	man	:man tmux
+pane	larnin-tmux	1	:balls	0	:-	1	:/home/jking/dots	1	zsh	:
+pane	larnin-tmux	1	:balls	0	:-	2	:/home/jking/dots	0	zsh	:
+pane	larnin-tmux	1	:balls	0	:-	3	:/home/jking/dots	0	zsh	:
+window	larnin-tmux	0	1	:*	3e1f,317x87,0,0[317x43,0,0,4,317x43,0,44,5]
+window	larnin-tmux	1	0	:-	feaf,317x87,0,0[317x65,0,0,11,317x21,0,66{238x21,0,66,9,39x21,239,66,10,38x21,279,66,6}]
+state	larnin-tmux	

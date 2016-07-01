@@ -1,0 +1,4 @@
+pane	clh	0	:[tmux]	1	:*	0	:/home/jking/code/chemlambda-hask	0	vim	:vim
+pane	clh	0	:[tmux]	1	:*	1	:/home/jking/code/chemlambda-hask	1	ghc	:/usr/lib/ghc-7.10.3/bin/ghc -B/usr/lib/ghc-7.10.3 --interactive
+window	clh	0	1	:*	3e15,317x87,0,0[317x43,0,0,0,317x43,0,44,1]
+state	clh	

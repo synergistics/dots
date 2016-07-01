@@ -1,0 +1,10 @@
+pane	0	0	:[tmux]	1	:*	0	:/home/jking/code/learning_haskell	1	zsh	:
+pane	2	0	:zsh	1	:*	0	:/home/jking	1	zsh	:
+pane	2	0	:zsh	1	:*	1	:/usr/share/man	0	man	:man pacaur
+pane	3	0	:zsh	1	:*	0	:/home/jking/code/chemlambda-hask	1	zsh	:
+pane	lh	0	:zsh	1	:*	0	:/home/jking/code/learning_haskell	1	zsh	:
+window	0	0	1	:*	d27d,317x87,0,0,0
+window	2	0	1	:*	cd47,317x87,0,0{80x87,0,0,3,236x87,81,0,2}
+window	3	0	1	:*	d282,317x87,0,0,5
+window	lh	0	1	:*	d27e,317x87,0,0,1
+state	3	lh
