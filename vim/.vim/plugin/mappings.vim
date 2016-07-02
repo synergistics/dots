@@ -15,6 +15,5 @@ nnoremap j gj
 nnoremap k gk
 
 " <C-L> to clear highlighted search (From tpope's vim-sensible)
-
 nnoremap <silent> <leader><C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
 
