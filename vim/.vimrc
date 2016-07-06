@@ -38,5 +38,8 @@ Plug 'christoomey/vim-tmux-navigator'
 
 " Maximize vim windows like tmux
 Plug 'szw/vim-maximizer'
+
+" Enhanced movement
+Plug 'justinmk/vim-sneak'
 call plug#end()
 
