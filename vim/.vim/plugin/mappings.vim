@@ -1,11 +1,8 @@
 let mapleader = ',' 
 
 " Config helpers 
-nnoremap <silent> <leader>sv :source %<CR>
-nnoremap <silent> <leader>ev :Explore $HOME/dots/vim<CR>
-
-" Turn of highlighting on ESC
-" nnoremap <leader><ESC> :noh<CR>
+nnoremap <silent> <leader>sv :source %<CR>:echo "Sourcing current file."<CR>
+nnoremap <silent> <leader>ed :Texplore $HOME/dots<CR>
 
 " Faster writing and quitting
 nnoremap <leader>w :w!<CR>

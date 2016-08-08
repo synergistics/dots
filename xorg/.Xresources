@@ -1,3 +1,3 @@
 #include ".Xresources.d/urxvt.Xresources" 
-#include ".Xresources.d/schemes/base16-ashes.dark.256.mod.xresources"
-
+#include ".Xresources.d/schemes/monochrome.xresources" 
+!#include ".Xresources.d/schemes/connormcd.xresources"

@@ -18,6 +18,9 @@ Plug 'kien/ctrlp.vim'
 " Wonderful colorschemes
 Plug 'chriskempson/base16-vim'
 
+" Monochrome colorscheme
+Plug 'synergistics/vim-monochrome'
+
 " Better Haskell syntax highlighting
 Plug 'urso/haskell_syntax.vim'
 
@@ -41,5 +44,8 @@ Plug 'szw/vim-maximizer'
 
 " Enhanced movement
 Plug 'justinmk/vim-sneak'
+
+" Replace text with text from register
+Plug 'vim-scripts/ReplaceWithRegister'
 call plug#end()
 

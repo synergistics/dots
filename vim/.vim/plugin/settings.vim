@@ -1,8 +1,7 @@
 filetype plugin indent on
 syntax enable
 
-colorscheme base16-tomorrow
-let base16colorspace=256
+" let base16colorspace=256
 
 let g:ctrlp_show_hidden = 1
 
@@ -30,6 +29,7 @@ set smartcase
 set laststatus=2
 set ruler
 set wildmenu
+set wildignore+=*/.git/*
 
 set autoread
 
@@ -44,3 +44,11 @@ set shell=/bin/zsh
 
 set cursorline
 
+set fillchars+=vert:│
+
+let g:ctrlp_custom_ignore = {
+  \ 'dir': '\v\.stack-work',
+  \ 'file': '\v\.(o|hi)'
+  \ } 
+
+colorscheme monochrome

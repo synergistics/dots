@@ -1,1 +1,3 @@
-:set prompt "\ESC[1;36m%s\n\ESC[1;34mλλ> \ESC[m"
+:set prompt "\ESC[1;36m\ESC[1;34mλλ> \ESC[m"
+
+:def shm (const $ return ":show modules")
