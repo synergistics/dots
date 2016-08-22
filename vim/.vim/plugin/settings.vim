@@ -1,8 +1,6 @@
 filetype plugin indent on
 syntax enable
 
-" let base16colorspace=256
-
 let g:ctrlp_show_hidden = 1
 
 set autoindent
@@ -51,4 +49,4 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(o|hi)'
   \ } 
 
-colorscheme monochrome
+colorscheme two-firewatch

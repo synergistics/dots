@@ -21,8 +21,11 @@ Plug 'chriskempson/base16-vim'
 " Monochrome colorscheme
 Plug 'synergistics/vim-monochrome'
 
-" Better Haskell syntax highlighting
-Plug 'urso/haskell_syntax.vim'
+" " Better Haskell syntax highlighting
+" Plug 'urso/haskell_syntax.vim'
+
+" " Better Haskell
+" Plug 'sdiehl/haskell-vim-proto'
 
 " Better JavaScript 
 Plug 'pangloss/vim-javascript'
@@ -47,5 +50,13 @@ Plug 'justinmk/vim-sneak'
 
 " Replace text with text from register
 Plug 'vim-scripts/ReplaceWithRegister'
+
+" Firewatch colorscheme
+Plug 'rakr/vim-two-firewatch'
+
+" Approximate gvim colorschemes
+" Best plugin ever right here
+Plug 'KevinGoodsell/vim-csexact'
+
 call plug#end()
 
