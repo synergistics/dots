@@ -51,12 +51,5 @@ Plug 'justinmk/vim-sneak'
 " Replace text with text from register
 Plug 'vim-scripts/ReplaceWithRegister'
 
-" Firewatch colorscheme
-Plug 'rakr/vim-two-firewatch'
-
-" Approximate gvim colorschemes
-" Best plugin ever right here
-Plug 'KevinGoodsell/vim-csexact'
-
 call plug#end()
 

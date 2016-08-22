@@ -49,4 +49,4 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(o|hi)'
   \ } 
 
-colorscheme two-firewatch
+colorscheme monochrome
