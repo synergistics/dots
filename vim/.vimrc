@@ -1,5 +1,12 @@
 call plug#begin('~/.vim/plugged')
 
+
+" Distraction free mode
+Plug 'junegunn/goyo.vim'
+
+" Rust
+Plug 'rust-lang/rust.vim'
+
 " Surround text with things
 Plug 'tpope/vim-surround'
 
@@ -15,16 +22,18 @@ Plug 'tpope/vim-vinegar'
 " Fuzzy Searcher
 Plug 'kien/ctrlp.vim'
 
-" Wonderful colorschemes
+" Colorschemes
+Plug 'junegunn/seoul256.vim'
 Plug 'chriskempson/base16-vim'
-
-" Monochrome colorscheme
 Plug 'synergistics/vim-monochrome'
+Plug 'rakr/vim-two-firewatch'
+Plug 'zandrmartin/vim-distill'
+Plug 'whatyouhide/vim-gotham'
 
-" " Better Haskell syntax highlighting
+"" Better Haskell syntax highlighting
 " Plug 'urso/haskell_syntax.vim'
 
-" " Better Haskell
+"" Better Haskell
 " Plug 'sdiehl/haskell-vim-proto'
 
 " Better JavaScript 

@@ -1,13 +1,15 @@
 filetype plugin indent on
 syntax enable
 
-let g:ctrlp_show_hidden = 1
+let g:ctrlp_show_hidden=1
+
+let base16colorspace=256
 
 set autoindent
 set smarttab
 set expandtab
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set shiftround
 
 set hidden 
@@ -49,4 +51,4 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(o|hi)'
   \ } 
 
-colorscheme monochrome
+colorscheme seoul256 
