@@ -29,6 +29,7 @@ Plug 'synergistics/vim-monochrome'
 Plug 'rakr/vim-two-firewatch'
 Plug 'zandrmartin/vim-distill'
 Plug 'whatyouhide/vim-gotham'
+Plug 'kamwitsta/nordisk'
 
 "" Better Haskell syntax highlighting
 " Plug 'urso/haskell_syntax.vim'

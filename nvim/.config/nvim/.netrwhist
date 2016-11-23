@@ -1,3 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/jking/code/dotlink/dotlink/scripts'
+let g:netrw_dirhist_2='/home/jking/code/learning_flask/flaskr'
+let g:netrw_dirhist_3='/home/jking/code/learning_flask/flaskr/static'
+let g:netrw_dirhist_4='/home/jking/code/learning_flask/one_hour/app'
+let g:netrw_dirhist_5='/home/jking'
+let g:netrw_dirhist_6='/home/jking/dots'
+let g:netrw_dirhist_7='/home/jking/dots/vim'
+let g:netrw_dirhist_8='/home/jking/dots/vim/.vim'

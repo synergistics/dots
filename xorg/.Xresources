@@ -1,4 +1,4 @@
-#include ".Xresources.d/urxvt.Xresources" 
-#include ".Xresources.d/schemes/seoul256dark.xresources" 
-!#include ".Xresources.d/schemes/base16-ocean.dark.256.xresources" 
+#include ".Xresources.d/urxvt.Xresources"
+#include ".Xresources.d/schemes/nordisk.xresources"
+!#include ".Xresources.d/schemes/base16-ocean.dark.256.xresources"
 !#include ".Xresources.d/schemes/connormcd.xresources"

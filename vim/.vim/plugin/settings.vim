@@ -51,4 +51,4 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(o|hi)'
   \ } 
 
-colorscheme seoul256 
+colorscheme nordisk 
