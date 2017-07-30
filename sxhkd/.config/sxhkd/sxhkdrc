@@ -34,7 +34,7 @@ super + bracket{left,right}
 	bspc desktop -f {prev,next}
 
 super + shift + bracket{left,right}
-  bspc node -d {prev,next}
+	bspc node -d {prev,next}
 
 super + ctrl + {h,j,k,l}
 	bspc node -p {west,south,north,east}
@@ -70,12 +70,31 @@ super + @button{1-3}
 # wm independent hotkeys
 #
 
+## audio
+XF86AudioMute
+    /home/imbue/bin/volume toggle
+
+XF86AudioLowerVolume
+    /home/imbue/bin/volume down 2
+
+XF86AudioRaiseVolume
+    /home/imbue/bin/volume up 2 
+
+## brightness
+XF86MonBrightnessDown
+    /home/imbue/bin/brightness down 5
+
+XF86MonBrightnessUp
+    /home/imbue/bin/brightness up 5
+
 super + Return
-	urxvt
+	alacritty
 
 super + r
-    rofi -show run
+   	rofi -modi "run,ssh" -show run
 
+super + g
+	bspc node -R 90	
 # super + r
 #  	dmenu_run -b -dim 0.3 -fn 'Terminus-8' -x 710 -y 3 -w 500 -sb gray -sf darkslategray
 
@@ -86,5 +105,5 @@ super + x
   xrdb ~/.Xresources
 
 # make sxhkd reload its configuration files:
-super + Escape
+super + Escape 
 	pkill -USR1 -x sxhkd

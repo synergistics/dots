@@ -1,0 +1,20 @@
+#!/bin/bash
+delta=$2
+
+if [ $1 == "up" ]
+then
+    amixer sset Master $delta%+ 
+elif [ $1 == "down" ]
+then
+    amixer sset Master $delta%- 
+elif [ $1 == "toggle" ]
+then
+    if amixer -c 0 sget Master | grep -q off
+    then
+        amixer sset Master unmute 
+        amixer sset Headphone unmute 
+        amixer sset Speaker unmute 
+    else
+        amixer sset Master mute
+    fi
+fi

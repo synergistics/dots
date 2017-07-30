@@ -6,6 +6,7 @@ let g:ctrlp_show_hidden=1
 let base16colorspace=256
 
 set autoindent
+set termguicolors
 set smarttab
 set expandtab
 set tabstop=4
@@ -51,4 +52,4 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(o|hi)'
   \ } 
 
-colorscheme nordisk 
+colorscheme base16-grayscale-dark

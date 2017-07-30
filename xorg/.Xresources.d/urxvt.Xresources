@@ -3,10 +3,11 @@ urxvt.internalBorder: 5
 !! Fonts
 !urxvt.font: xft:Monaco:size=9
 !urxvt.font: xft:DejaVu Sans Mono:size=9
-urxvt.font: xft:Roboto Mono:size=9
-!urxvt.font: xft:Inconsolata-dz:size=9
+!urxvt.font: xft:Roboto Mono:size=9
+!urxvt.font: xft:Inconsolata-dz:size=10
 !urxvt.font: xft:dweep, xft:Monospace:size=9
-!urxvt.font: xft:Terminus:size=9, xft:Monospace:size=9
+!urxvt.font: xft:xos4 Terminus:size=9, xft:Monospace:size=9
+urxvt.font: xft:ProFont:size=11, xft:Monospace:size=9
 !urxvt.font: xft:Tamsyn:size=9
 !urxvt.font: xft:Ubuntu Mono:size=11
 

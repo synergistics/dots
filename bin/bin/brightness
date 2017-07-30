@@ -1,0 +1,20 @@
+#!/bin/bash
+brightness_file=/sys/class/backlight/intel_backlight/brightness
+brightness=$(< $brightness_file)
+delta=$2
+
+if [ $1 == "up" ]
+then
+    if [ $((brightness < 100)) '=' 1 ] 
+    then
+        brightness=$((brightness + $delta))
+    fi
+elif [ $1 == "down" ]
+then
+    if [ $((brightness > 0)) '=' 1 ] 
+    then
+        brightness=$((brightness - $delta))
+    fi
+fi
+
+echo -n $brightness > $brightness_file

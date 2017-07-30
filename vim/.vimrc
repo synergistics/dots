@@ -30,6 +30,7 @@ Plug 'rakr/vim-two-firewatch'
 Plug 'zandrmartin/vim-distill'
 Plug 'whatyouhide/vim-gotham'
 Plug 'kamwitsta/nordisk'
+Plug 'w0ng/vim-hybrid'
 
 "" Better Haskell syntax highlighting
 " Plug 'urso/haskell_syntax.vim'
@@ -42,9 +43,6 @@ Plug 'pangloss/vim-javascript'
 
 " Repeat plugin commands with . 
 Plug 'tpope/vim-repeat'
-
-" Hybrid colorscheme
-Plug 'w0ng/vim-hybrid'
 
 " Commenting helper
 Plug 'tpope/vim-commentary'
