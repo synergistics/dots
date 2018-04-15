@@ -52,4 +52,4 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(o|hi)'
   \ } 
 
-colorscheme base16-grayscale-dark
+colorscheme fresh 

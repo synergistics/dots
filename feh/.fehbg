@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-tile '/home/jking/dots/backgrounds/backgrounds/nasty_fabric.png' 
+'feh' '--bg-fill' '/home/imbue/dots/backgrounds/backgrounds/strider_lofi_lol.jpg' 

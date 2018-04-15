@@ -23,6 +23,7 @@ Plug 'tpope/vim-vinegar'
 Plug 'kien/ctrlp.vim'
 
 " Colorschemes
+Plug 'Alvarocz/vim-fresh'
 Plug 'junegunn/seoul256.vim'
 Plug 'chriskempson/base16-vim'
 Plug 'synergistics/vim-monochrome'

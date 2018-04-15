@@ -1,0 +1,209 @@
+colors:
+  bright:
+    black: '0xbd954c'
+    blue: '0x4b92c0'
+    cyan: '0x81c555'
+    green: '0xc07dd2'
+    magenta: '0xe4a1b1'
+    red: '0xde718f'
+    white: '0x68ccbe'
+    yellow: '0xcda6d9'
+  normal:
+    black: '0x0c1116'
+    blue: '0x526575'
+    cyan: '0x99b5ce'
+    green: '0x242d35'
+    magenta: '0x728a9f'
+    red: '0x151c21'
+    white: '0xdbe3ed'
+    yellow: '0x384651'
+  primary:
+    background: '0x06090d'
+    foreground: '0xc8d6e4'
+custom_cursor_colors: false
+dimensions:
+  columns: 80
+  lines: 24
+dpi:
+  x: 96.0
+  y: 96.0
+draw_bold_text_with_bright_colors: true
+env:
+  TERM: xterm-256color
+font:
+  bold:
+    family: Inconsolata
+    style: Bold
+  glyph_offset:
+    x: 0.0
+    y: 0.0
+  italic:
+    family: Inconsolata
+    style: Italic
+  normal:
+    family: Inconsolata
+    style: Regular
+  offset:
+    x: 0.0
+    y: 0.0
+  size: 10.0
+  use_thin_strokes: false
+hide_cursor_when_typing: false
+key_bindings:
+- action: Paste
+  key: V
+  mods: Control|Shift
+- action: Copy
+  key: C
+  mods: Control|Shift
+- action: Quit
+  key: Q
+  mods: Command
+- action: Quit
+  key: W
+  mods: Command
+- action: PasteSelection
+  key: Insert
+  mods: Shift
+- chars: "\eOH"
+  key: Home
+  mode: AppCursor
+- chars: "\e[1~"
+  key: Home
+  mode: ~AppCursor
+- chars: "\eOF"
+  key: End
+  mode: AppCursor
+- chars: "\e[4~"
+  key: End
+  mode: ~AppCursor
+- chars: "\e[5;2~"
+  key: PageUp
+  mods: Shift
+- chars: "\e[5;5~"
+  key: PageUp
+  mods: Control
+- chars: "\e[5~"
+  key: PageUp
+- chars: "\e[6;2~"
+  key: PageDown
+  mods: Shift
+- chars: "\e[6;5~"
+  key: PageDown
+  mods: Control
+- chars: "\e[6~"
+  key: PageDown
+- chars: "\e[1;2D"
+  key: Left
+  mods: Shift
+- chars: "\e[1;5D"
+  key: Left
+  mods: Control
+- chars: "\e[1;3D"
+  key: Left
+  mods: Alt
+- chars: "\e[D"
+  key: Left
+  mode: ~AppCursor
+- chars: "\eOD"
+  key: Left
+  mode: AppCursor
+- chars: "\e[1;2C"
+  key: Right
+  mods: Shift
+- chars: "\e[1;5C"
+  key: Right
+  mods: Control
+- chars: "\e[1;3C"
+  key: Right
+  mods: Alt
+- chars: "\e[C"
+  key: Right
+  mode: ~AppCursor
+- chars: "\eOC"
+  key: Right
+  mode: AppCursor
+- chars: "\e[1;2A"
+  key: Up
+  mods: Shift
+- chars: "\e[1;5A"
+  key: Up
+  mods: Control
+- chars: "\e[1;3A"
+  key: Up
+  mods: Alt
+- chars: "\e[A"
+  key: Up
+  mode: ~AppCursor
+- chars: "\eOA"
+  key: Up
+  mode: AppCursor
+- chars: "\e[1;2B"
+  key: Down
+  mods: Shift
+- chars: "\e[1;5B"
+  key: Down
+  mods: Control
+- chars: "\e[1;3B"
+  key: Down
+  mods: Alt
+- chars: "\e[B"
+  key: Down
+  mode: ~AppCursor
+- chars: "\eOB"
+  key: Down
+  mode: AppCursor
+- chars: "\e[Z"
+  key: Tab
+  mods: Shift
+- chars: "\eOP"
+  key: F1
+- chars: "\eOQ"
+  key: F2
+- chars: "\eOR"
+  key: F3
+- chars: "\eOS"
+  key: F4
+- chars: "\e[15~"
+  key: F5
+- chars: "\e[17~"
+  key: F6
+- chars: "\e[18~"
+  key: F7
+- chars: "\e[19~"
+  key: F8
+- chars: "\e[20~"
+  key: F9
+- chars: "\e[21~"
+  key: F10
+- chars: "\e[23~"
+  key: F11
+- chars: "\e[24~"
+  key: F12
+- chars: "\x7F"
+  key: Back
+- chars: "\e\x7F"
+  key: Back
+  mods: Alt
+- chars: "\e[2~"
+  key: Insert
+- chars: "\e[3~"
+  key: Delete
+mouse:
+  double_click:
+    threshold: 300
+  triple_click:
+    threshold: 300
+mouse_bindings:
+- action: PasteSelection
+  mouse: Middle
+padding:
+  x: 10
+  y: 10
+render_timer: false
+selection:
+  semantic_escape_chars: ",\u2502`|:\"' ()[]{}<>"
+tabspaces: 8
+visual_bell:
+  animation: EaseOutSine
+  duration: 0
